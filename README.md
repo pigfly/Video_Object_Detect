@@ -34,12 +34,14 @@
 
 The following dependencies are needed:
 
-`install.package("devtools")`
-`devtools::install_github("swarm-lab/ROpenCVLite", ref = "v0.3.410")`
+- `install.package("devtools")`
+- `devtools::install_github("swarm-lab/ROpenCVLite", ref = "v0.3.410")`
 
 # Background subtraction:
 
   This algorithm uses basic background subtraction to segment the objects in the image. A background image can be provided by the user or can be computed as the mean or median of n images taken at regular intervals throughout the video. This method should work well in most lab situations with a constant and homogenous background.
+  
+  This method should work better than the other two in situations were the background is not constant (e.g. when the environment changes over time). See *Sridhar, V. H., Roche, D. G., and Gingins, S. (2019). Tracktor: Image-based automated tracking of animal movement and behaviour. Methods Ecol. Evol. 10, 691. doi:10.1111/2041-210X.13166 * for more details.
   
 # Build artefacts (Mac) 
 
