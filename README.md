@@ -50,8 +50,8 @@ clang++ -std=gnu++11 -dynamiclib -Wl,-headerpad_max_install_names -undefined dyn
 ```
 
 # Demo
-- [demo1]()
-- [demo2]()
+- [demo1](https://github.com/pigfly/Video_Object_Detect/blob/master/demo1.mov)
+- [demo2](https://github.com/pigfly/Video_Object_Detect/blob/master/demo2.mov)
  
 
 
