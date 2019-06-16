@@ -51,6 +51,15 @@ clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDE
 clang++ -std=gnu++11 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -o Rvision.so RcppExports.o visionModule.o -L/Library/Frameworks/R.framework/Versions/3.6/Resources/library/ROpenCVLite/opencv/lib -lopencv_calib3d -lopencv_core -lopencv_dnn -lopencv_features2d -lopencv_flann -lopencv_gapi -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_stitching -lopencv_video -lopencv_videoio -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
 ```
 
+# Tracking Data
+`Data Frame`:
+
+```
+id	   x	  y	size	 frame	track
+```
+
+- [complete data frame](https://github.com/pigfly/Video_Object_Detect/blob/master/tracks.csv)
+
 # Demo
 - [demo1](https://github.com/pigfly/Video_Object_Detect/blob/master/demo1.mov)
 - [demo2](https://github.com/pigfly/Video_Object_Detect/blob/master/demo2.mov)
