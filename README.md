@@ -1,4 +1,4 @@
-# Alex Jiang - VU Video Object Tracking - Demo 1
+# Alex Jiang - Video Object Tracking - Demo 1
 
 # Introduction
   This is first stage demo for video object tracking by Alex Jiang, it utilises the `openCV`, `R`, `spectrum`, and a localhost user interaction server for video object tracking.
